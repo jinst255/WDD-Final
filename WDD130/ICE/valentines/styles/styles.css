@@ -1,0 +1,129 @@
+/* 
+
+Author: Justin Hair
+Class: WDD 130
+Date: Feb 11 2026
+
+Citations:
+
+*/
+
+
+
+
+/****************************
+            wrapper 
+*****************************/
+
+#wrapper {
+    color: #D70D03;
+}
+
+/****************************
+            Header 
+*****************************/
+
+header {
+    background-color: #F95F42;
+    color: white;
+    padding: 10px;
+    font-size: 1.8em;
+}
+
+/****************************
+            nav 
+*****************************/
+
+nav {
+    background-color: #d25137;
+}
+
+ul {
+    width: fit-content;
+    margin: 0 auto;
+    columns: 4;
+    column-gap: 90px;
+    list-style-type: none;
+}
+
+/****************************
+            ? 
+*****************************/
+
+
+
+
+
+/****************************
+            main 
+*****************************/
+
+main {
+    background-color: #590203;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/****************************
+            h1 
+*****************************/
+
+h1 {
+    background-color: #990403;
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+/****************************
+            Image 
+*****************************/
+img {
+    border: 2px solid black;
+    margin: 0;
+    width: 40%;
+    grid-column: 1/4;
+    grid-row: 2;
+    display: block;
+    margin: 0 auto;
+}
+
+/****************************
+            Body 
+*****************************/
+
+section {
+    background-color: #F5917B;
+    color: white;
+}
+
+/****************************
+            Body 
+*****************************/
+body {
+    text-align: center;
+    background-color: black;
+    color: #7e7e7e;
+}
+
+/****************************
+            h2, p 
+*****************************/
+
+h2, p {
+    background-color: #590203;
+    color: rgb(210, 210, 210);
+}
+
+
+/****************************
+            Footer 
+*****************************/
+
+footer {
+    background-color: rgb(205, 66, 66);
+    color: white;
+    padding: 15px;
+    font-size: 1.8em;
+}
+

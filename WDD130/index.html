@@ -1,0 +1,180 @@
+<!--
+Author: Justin Hair
+Some code ideas were generated using AI assistance.
+Class: WDD 130
+Date Created: Feb 14 2026
+
+Works cited:
+https://www.w3schools.com/css/css3_gradients.asp
+https://www.w3schools.com/html/html_forms.asp
+
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo_small.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin's Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/logo_normal.png" alt="Website logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="WWR/index.html">WWR</a></li>
+                <li><a href="ice.html">ICE</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <h1>Hey there, I'm Justin Hair</h1>
+        <p>I'm a BYU-Idaho computer science student minoring in AI. 
+            I've loved to code since age 9. I've spent years diving into Python, 
+            automation, and AI, not just to learn the concepts, but to build 
+            awesome things that solve problems. Take a look at a few of my 
+            listed projects to see what I spend my free time doing!</p>
+
+        <img src="images/computer.jpeg" alt="A picture of a computer with code">
+        <a class="main_button" href="Resume_CS_feb24_9am.docx" download="Resume of Justin Hair">Download Resume</a>
+
+        <section id="projects">
+            <h2>Projects Demo</h2>
+
+            <img src="images/Fence_daddy_automation.png" alt="Shipping Workflow Automation">
+            <h3>Shipping Workflow Automation</h3>
+            <p>Python + Selenium - Self-initiated automation reducing daily package scheduling from 10 minutes to 2 minutes (80% time savings). Eliminated repetitive data entry at a former employer.</p>
+
+            <img src="images/Flappybird.png" alt="Flappy Bird AI Agent">
+            <h3>Flappy Bird AI Agent</h3>
+            <p>Python + Machine Learning - Reinforcement learning model that trained itself to play Flappy Bird autonomously. Collaborated with a peer and published on GitHub, showcasing early interest in AI/ML systems.</p>
+
+            <img src="images/TI84CE_AI_Demo_.of_a_1.png" alt="Hand-Coded Digit Classifier">
+            <h3>Hand-Coded Digit Classifier</h3>
+            <p>TI-84+ CE Calculator Programming - Built a neuron-based pattern recognition system from scratch to classify handwritten digits without any ML libraries, in a single day with no IDE or AI asistance.</p>
+
+            <img src="images/depth_image_of_tree.webp" alt="Video Depth Mapping Application">
+            <h3>Video Depth Mapping Application</h3>
+            <p>Python + OpenCV + Hugging Face - Integrated Intel's pre-trained depth estimation model to convert standard images and video into depth-mapped output. Optimized for local GPU and CPU execution.</p>
+
+            <img src="images/TI84_Engine_remake.png" alt="Ti-83/Ti-84 Zelda-Type Game Engine Remake">
+            <h3>Optimization of 600% in speed on exsisting Calculator Game Engine</h3>
+            <p>Calculator Programming (TI-BASIC) - Rebuilt and deeply optimized an existing Zelda-style game engine for TI calculators, achieving ~600% faster load times through low-level optimization with no external tools or IDE.</p>
+
+            <img src="images/undraw_handshake-deal_nwk6.png" alt="Trust and Document Automation Illustration">
+            <h3>Trust & Estate Document Automation</h3> 
+            <p>Python + Gradio - Custom automation app for legal and estate-related tasks, saving money every month. Designed an intuitive UI so non-technical staff can leverage powerful AI automation.</p>
+
+            <table class="skills-table">
+                <tr>
+                    <th>Language / Technology</th>
+                    <th>Proficiency Level</th>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Proficient - 5+ years experience</td>
+                </tr>
+                <tr>
+                    <td>Cross-platform Development</td>
+                    <td>Windows (extensive), Linux (intermediate), macOS (basic)</td>
+                </tr>
+                <tr>
+                    <td>Automation of Processes</td>
+                    <td>Intermediate - Custom tools to streamline business processes</td>
+                </tr>
+                <tr>
+                    <td>Machine Learning / AI Deployment</td> 
+                    <td>Intermediate - Pre-trained model integration</td> 
+                </tr>
+                <tr>
+                    <td>Linux & Command Line Usage</td>
+                    <td>Intermediate - 3+ years experience</td>
+                </tr>
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>Learning - Current BYU-I coursework</td>
+                </tr>
+            </table>
+
+            <aside id="note">
+                <p><strong>Quick Learner:</strong> <br> Self-taught programmer since age 9. Highly adaptable to new languages, frameworks, and environments.</p>
+            </aside>
+
+            <a href="https://github.com/jinst255" target="_blank" rel="noopener noreferrer" class="button">View More Projects on GitHub</a>
+        </section>
+
+        <section id="lets_get_in_contact">
+            <h2>Let's Get In Contact</h2>
+            <p>I'll reach out to you as soon as I can!</p>
+
+            <form action="#lets_get_in_contact">
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="phone">Phone:</label><br>
+            <input type="text" id="phone" name="phone"><br>
+            <label for="company_name">Company:</label><br>
+            <input type="text" id="company_name" name="company_name"><br><br>
+            <input id="submit_button" type="submit" value="Submit">
+            </form> 
+
+
+
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+
+            <figure>
+                <img src="images/testimonial_1.jpg" alt="Photo of David Mercer">
+                <blockquote>
+                    Justin built an automation tool for us completely on his own initiative — we didn't even ask him to. It saved our team real time every single day. He's the kind of person who sees a problem and just fixes it. I'd hire him again without hesitation.
+                </blockquote>
+                <figcaption>- David Mercer, Operations Manager</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/testimonial_2.jpg" alt="Photo of Emily Rowe">
+                <blockquote>
+                    Justin helped me understand programming concepts I'd been struggling with for weeks, and he did it without me even asking. He explained everything clearly and never made me feel dumb for not knowing. He's a natural teacher and a genuinely good person.
+                </blockquote>
+                <figcaption>- Emily Rowe, Fellow CS Student at BYU-Idaho</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/testimonial_3.jpg" alt="Photo of Nathan Cole">
+                <blockquote>
+                    I've worked alongside a lot of junior developers, but Justin stands out. He picked up new tools faster than anyone I've seen, and the AI project we collaborated on showed real depth of understanding — not just copy-paste coding. His potential is obvious.
+                </blockquote>
+                <figcaption>- Nathan Cole, Software Developer</figcaption>
+            </figure>
+        </section>
+    </main>
+
+<footer>
+        <p>&copy; 2026 Justin Hair. All rights reserved.</p>
+        
+        <ul>
+            <li><a href="https://github.com/jinst255" target="_blank" rel="noopener noreferrer">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/justin-hair-6b9471256/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:justin.hair@outlook.com">Email</a></li>
+        </ul>
+
+        <a href="https://www.facebook.com/share/1DnigfTTs3/" target="_blank" rel="noopener noreferrer"><img src="images/fb_logo.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/justin.hair?igsh=aDUwZ2JoZndyY2x0" target="_blank" rel="noopener noreferrer"><img src="images/in_logo.png" alt="Instagram"></a>
+    </footer>
+</body>
+</html>

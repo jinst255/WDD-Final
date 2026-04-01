@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #d3d3d3, #001f3f);
+  background-repeat: no-repeat; /* Just in case */
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header-image {
+  background-image: url('../images/pic1.webp'); /* Replace with your image */
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: 80%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+}
+
+.header-image h1 {
+  margin: 0;
+  line-height: 0.9;
+    font-size: 3.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background: #00000055;
+}
+
+.content-box {
+  background-color: white;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+  box-shadow: 5px 5px 0px black;
+  min-height: 400px;
+  border-radius: 10px;
+}
+
+.content-box table {
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to bottom, #d3d3d3, #001f3f);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: 5px 5px 10px black;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 0;
+
+}
+
+.content-box table tr,
+.content-box table th {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.top-of-table {
+  font-size: 1.4em;
+  border-bottom: 2px solid black;
+  padding: 0 0;
+}
+
+.content-box table td:nth-child(even), 
+.content-box table th:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+
+form {
+  background: linear-gradient(to bottom, #838e9d, #6f849d);
+  box-shadow: 5px 5px 10px black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+form input[type="submit"] {
+  background-color: #ced3db;
+}
+
+form input[type="submit"]:hover {
+  background-color: #b0b0b0;
+}
